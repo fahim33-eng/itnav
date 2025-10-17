@@ -1,0 +1,35 @@
+# Image Guide
+
+All images are located directly in the public/ folder:
+
+## Available Images
+
+### Hero Images
+- hero_group_photo_1.png
+- hero_group_photo_2.png  
+- hero_group_photo_3.png
+
+### Member Images
+- renren.png
+- gaku.png
+- shoya_kubo.png
+
+### Graduate Images
+- green_avatar_1.png
+- green_avatar_2.png
+- green_avatar_3.png
+- green_avatar_4.png
+
+### Other Images
+- classroom_group_photo_1.png
+- office_group_photo_3.png
+- teaching_kids.png
+- macbook_hero.png
+- company_logo.png
+
+## Image Specs
+- Format: PNG
+- Optimized for web
+- All images are ready to use
+
+The app uses these images directly from the public folder.

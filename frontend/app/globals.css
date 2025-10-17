@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --itnav-primary: #2ABC8F;
+  --itnav-primary-light: #4BC4A0;
+  --itnav-primary-dark: #229B7A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-itnav-primary {
+  background-color: var(--itnav-primary);
+}
+
+.text-itnav-primary {
+  color: var(--itnav-primary);
+}
+
+.border-itnav-primary {
+  border-color: var(--itnav-primary);
+}
+
+.hover\:bg-itnav-primary:hover {
+  background-color: var(--itnav-primary);
+}
+
+.hover\:text-itnav-primary:hover {
+  color: var(--itnav-primary);
+}
+
+.bg-grid-f1faf7 {
+  background-color: #F1FAF7;
+  background-image: linear-gradient(to right, rgba(42, 188, 143, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(42, 188, 143, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
