@@ -40,7 +40,7 @@ npm run dev
 
 ## Features
 
-✨ **Frontend**
+**Frontend**
 - Next.js 15 with App Router
 - TypeScript
 - Tailwind CSS
@@ -50,7 +50,7 @@ npm run dev
 - Carousels on mobile
 - API integration with fallback
 
-🚀 **Backend**
+**Backend**
 - FastAPI
 - CORS enabled
 - Mock data endpoints
@@ -93,39 +93,3 @@ See detailed documentation in:
 - FastAPI
 - Python 3.8+
 - Uvicorn
-
-## Adding Images
-
-Place your images in `frontend/public/`:
-- `members/` - Member profile images
-- `graduates/` - Graduate profile images
-
-## Development Notes
-
-- The app prioritizes API data but falls back to mock data if backend is unavailable
-- All animations are optimized for performance
-- Fully responsive across all device sizes
-- Smooth scroll animations throughout
-- Tab-based navigation on interview page
-- Carousels automatically appear on mobile devices
-
-## Interview Task Requirements
-
-✅ Clone two pages exactly
-✅ Next.js with TypeScript
-✅ Tailwind CSS styling
-✅ Framer Motion animations
-✅ shadcn UI components
-✅ FastAPI backend
-✅ No database (using mock data)
-✅ API integration with fallback
-✅ Works with or without backend
-✅ Ready for Vercel deployment
-✅ Carousels implemented
-✅ Lots of animations
-✅ Professional and polished UI
-
-## License
-
-Created for interview purposes.
-

@@ -1,13 +1,13 @@
 # ITNAV Recruit Backend
 
-FastAPI backend for the ITNAV recruitment website clone.
+FastAPI backend for the ITNAV recruitment.
 
 ## Setup
 
 1. Create a virtual environment:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
 
 2. Install dependencies:
@@ -34,7 +34,4 @@ The API will be available at `http://localhost:8000`
 - `GET /api/members` - Get all members data
 - `GET /api/graduates` - Get all graduates data
 
-## Note
-
-This is a simple backend with mock data, no database required. The frontend will work with or without this backend running, using fallback mock data.
 

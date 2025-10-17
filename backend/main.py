@@ -4,7 +4,6 @@ from typing import List, Dict, Any
 
 app = FastAPI(title="ITNAV Recruit API")
 
-# CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -13,7 +12,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Mock data
 home_data = {
     "mission": {
         "title": "ITNAV MISSION",
